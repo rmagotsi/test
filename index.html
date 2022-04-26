@@ -4,25 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramona/Front End/UI Developer</title>
-      <link rel="stylesheet" href="portfolio.css">
+      <link rel="stylesheet" href="styles.css">
       <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <link rel= "icon" href= "images/logo.png">
   </head>
   <body>
+
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <nav class="nav-bar"
-        <ul>
-          <ul><a href =""> Home</a></ul>
-          <ul><a href=""> About</a></ul>
-          <ul><a href=""> Projects</a></ul>
-          <ul><a href= ""> Contact</a></ul>
-        </ul>
+      <header>
+      <div class= "section-wrap">
+      <nav class="topnav" id="myTopnav">
+        <a class="space" href="#link0"> HOME</a>
+        <a class ="space" href="#link1"> PROJECT</a>
+        <a class=" space" href= "#link3"> CONTACT</a>
       </nav>
-  <main>
-        <div class = "Intro">
+    </div>
+    </header>
+    <main>
+        <div class = "intro-wrap" id= "link0">
         <h1>Ramona Magotsi</h1>
-        <h2>Web Developer</h2>
-        <p>I build stuff.</p>
+        <h2>Instructional Designer</h2>
       </div>
-  </main>
+
+
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+
+      <section class = "projects divider">
+          <h2 id="link1">Featured Projects</h2>
+          <div class = "content-wrap">
+
+        <!-- Copy the whole <section> block to add more projects. -->
+        <section class =" project-item2">
+          <img src="https://res.cloudinary.com/dm4il5pzw/image/upload/v1597034706/Screen_Shot_2020-08-10_at_12.43.39_AM_scfcqu.png" alt="preview of landing page" class="image-depth" >
+        <h3>Product Landing Page</h3>
+        <p>I designed and coded a fictional product landing page. I used HTML/CSS along with grid and flex layouts.</p>
+        <a  href="https://rmagotsi.github.io/Motiqq_/" class="btn" target="_blank" >View project</a>
+    </section>
+
+        <!-- End of Project block. -->
+          <section class =" project-item2">
+            <img src="https://res.cloudinary.com/dm4il5pzw/image/upload/v1599528039/realiable3_es8jxq.png" alt="preview of landing page" class="image-depth">
+          <h3>Product Landing Page</h3>
+          <p>I completed a four card section coding challenge. This design was created using HTML/CSS with a grid layout.</p>
+          <a  href=" https://rmagotsi.github.io/Four-card-feature-section/" class="btn" target="_blank" >View project</a>
+      </section>
+      <section class =" project-item3">
+        <img src="https://res.cloudinary.com/dm4il5pzw/image/upload/v1599528125/huddle_lkratb.png" alt="preview of landing page" class="image-depth" width="300" height="142.09" >
+      <h3>Product Landing Page</h3>
+      <p>I completed a four card section coding challenge. This design was created using HTML/CSS with a grid layout.</p>
+      <a  href="https://rmagotsi.github.io/huddlelandingpage1/" class="btn" target="_blank" >View project</a>
+  </section>
+  <section class =" project-item4">
+    <img src="https://res.cloudinary.com/dm4il5pzw/image/upload/v1597036864/Screen_Shot_2020-08-10_at_1.19.49_AM_ohw4fg.png" alt="preview of landing page" class="image-depth" >
+  <h3>Registration Form</h3>
+  <p>I designed and coded a fictional event registation from in HTML/CSS using floats.</p>
+  <a  href="https://codepen.io/rmagotsi/pen/rNxEYLV" class="btn" target="_blank">View project</a>
+</section>
+      </div>
+     </section>
+
+
+
+      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+      <footer>
+        <div>
+        <h2 id="link3"> <a href= "https://github.com/rmagotsi">Check out my GitHub!</a></h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+
+      </div>
+      </footer>
+    </main>
   </body>
-  </html>
+</html>
