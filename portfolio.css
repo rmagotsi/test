@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+
+body{
+
+
+}
+.nav-bar{
+  display: flex;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*html {
+  background: url(https://res.cloudinary.com/dm4il5pzw/image/upload/v1596265127/sky2_z3nchs.jpg)
+  no-repeat center center fixed;
+  background-size: cover;
+}*/
